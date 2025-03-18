@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name":" BRIDAL CONE",
+        "price": 20,
+        "image": "image/product-01.jpg"
+    },
+    {
+        "id": 2,
+        "name":" PRACTICE CONE",
+        "price": 15,
+        "image": "image/product-02.jpg"
+    },
+    {
+        "id": 3,
+        "name":" HENNA POWDER 100G",
+        "price": 75,
+        "image": "image/product-03.jpg"
+    },
+    {
+        "id": 4,
+        "name":" NAIL CONE",
+        "price": 20,
+        "image": "image/product-04.jpg"
+    },
+    {
+        "id": 5,
+        "name":" HENNA DIPS",
+        "price": 30,
+        "image": "image/product-05.jpg"
+    },
+    {
+        "id": 6,
+        "name":" NORMAL CONE",
+        "price": 30,
+        "image": "image/product-06.jpg"
+    },
+    {
+        "id": 7,
+        "name":" OUT OF STOCK",
+        "price": 100,
+        "image": "image/product-01.jpg"
+    }
+
+]
