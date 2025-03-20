@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Logo Styling - Always Visible */
+.logo {
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.logo img {
+    width: 200px; /* Adjust if needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.15));
+}
+
+/* Checkout Form Container */
+.checkout-container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.checkout-container:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+    color: #444;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border-color: #28a745;
+    outline: none;
+}
+
+/* Total Amount */
+#totalAmount {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #28a745;
+}
+
+/* Checkout Button */
+button {
+    background: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgba(40, 167, 69, 0.3);
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #218838;
+    box-shadow: 0px 6px 12px rgba(40, 167, 69, 0.4);
+}
+
+/* Ensure Logo is Visible on Mobile */
+@media (max-width: 500px) {
+    .logo img {
+        width: 10px; 
+        /* Adjust smaller size for mobile */
+    }
+    .checkout-container {
+       
+    }
+}

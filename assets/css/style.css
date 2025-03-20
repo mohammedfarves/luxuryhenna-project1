@@ -238,12 +238,26 @@ body {
   padding-block-end: 15px;
   margin-block-end: -15px;
   scroll-snap-type: inline mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  animation: swipeHint 2s ease-in-out 2;
+}
+
+/* Subtle left-right movement to indicate swipe */
+@keyframes swipeHint {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  50% { transform: translateX(10px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
 }
 
 .scrollbar-item {
   min-width: 100%;
   scroll-snap-align: start;
 }
+
 
 .has-scrollbar::-webkit-scrollbar-track,
 .has-scrollbar::-webkit-scrollbar-thumb { background-color: transparent; }
